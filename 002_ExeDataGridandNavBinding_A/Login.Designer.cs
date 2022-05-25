@@ -120,7 +120,7 @@
             this.textUsername.BackColor = System.Drawing.Color.LightBlue;
             this.textUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textUsername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textUsername.Location = new System.Drawing.Point(290, 203);
+            this.textUsername.Location = new System.Drawing.Point(290, 200);
             this.textUsername.Name = "textUsername";
             this.textUsername.Size = new System.Drawing.Size(199, 23);
             this.textUsername.TabIndex = 7;
