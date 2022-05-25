@@ -39,7 +39,7 @@ namespace _002_ExeDataGridandNavBinding_A
 
             if (textUsername.Text == Username && textPassword.Text == Password)
             {
-                new Form2().Show();
+                new MainMenu().Show();
                 this.Hide();
             }
             else if (textUsername.Text == "" && textPassword.Text == "")
