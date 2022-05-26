@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _002_ExeDataGridandNavBinding_A
 {
-    public partial class Form1 : Form
+    public partial class FormDataGrid : Form
     {
-        public Form1()
+        public FormDataGrid()
         {
             InitializeComponent();
         }
@@ -22,6 +22,12 @@ namespace _002_ExeDataGridandNavBinding_A
             // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            new DataGrid().Show();
+            this.Close();
         }
     }
 }

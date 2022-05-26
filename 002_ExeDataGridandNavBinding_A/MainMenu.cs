@@ -31,7 +31,12 @@ namespace _002_ExeDataGridandNavBinding_A
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            new DataGrid().Show();
+            Application.Exit();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            new DataBinding().Show();
             this.Close();
         }
     }
