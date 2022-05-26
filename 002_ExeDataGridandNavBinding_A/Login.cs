@@ -37,7 +37,7 @@ namespace _002_ExeDataGridandNavBinding_A
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (textUsername.Text == Username && textPassword.Text == Password)
+            if (textUsername.Text == Username && textPassword.Text == Password && checkBox1.Checked == true)
             {
                 new MainMenu().Show();
                 this.Hide();
@@ -54,9 +54,13 @@ namespace _002_ExeDataGridandNavBinding_A
             {
                 MessageBox.Show("Username Salah");
             }
+            else if (textUsername.Text == Username && textPassword.Text == Password && checkBox1.Checked == false)
+            {
+                MessageBox.Show("Setujui term and conditions terlebih dahulu");
+            }
             else
             {
-                MessageBox.Show("Username dan Password Salah. Username = MagarethaWS, Password = Put1414 ");
+                MessageBox.Show("Username dan Password Salah. Username = MagarethaWS, Password = Put1414");
                 textUsername.Clear();
                 textPassword.Clear();
                 textUsername.Focus();
@@ -74,6 +78,11 @@ namespace _002_ExeDataGridandNavBinding_A
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
