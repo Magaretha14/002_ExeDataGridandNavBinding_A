@@ -44,7 +44,7 @@ namespace _002_ExeDataGridandNavBinding_A
             }
             else if (textUsername.Text == "" && textPassword.Text == "")
             {
-                MessageBox.Show("Anda belum mengisi username dan password");
+                MessageBox.Show("Anda belum mengisi username dan password. Username = MagarethaWS, Password = Put1414");
             }
             else if (textUsername.Text == Username && textPassword.Text == "")
             {
