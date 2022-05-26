@@ -76,6 +76,7 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.Color.LightBlue;
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "PhoneMhs", true));
             this.textBox5.Location = new System.Drawing.Point(295, 180);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(185, 22);
@@ -94,6 +95,7 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.LightBlue;
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "Sex", true));
             this.textBox4.Location = new System.Drawing.Point(295, 143);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(185, 22);
@@ -102,6 +104,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.LightBlue;
+            this.textBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "AlamatMhs", true));
             this.textBox3.Location = new System.Drawing.Point(295, 105);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(185, 22);
@@ -110,6 +113,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.LightBlue;
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "NamaMhs", true));
             this.textBox2.Location = new System.Drawing.Point(295, 70);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(185, 22);
