@@ -19,7 +19,7 @@ namespace _002_ExeDataGridandNavBinding_A
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            new DataGrid().Show();
             this.Close();
         }
 
@@ -31,7 +31,7 @@ namespace _002_ExeDataGridandNavBinding_A
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            new DataGrid().Show();
             this.Close();
         }
     }
