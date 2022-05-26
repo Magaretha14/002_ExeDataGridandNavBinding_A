@@ -27,13 +27,13 @@ namespace _002_ExeDataGridandNavBinding_A
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             new Login().Show();
-            this.Close();
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             new MainMenu().Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

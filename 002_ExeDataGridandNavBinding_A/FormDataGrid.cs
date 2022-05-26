@@ -27,7 +27,12 @@ namespace _002_ExeDataGridandNavBinding_A
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             new DataGrid().Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+          
         }
     }
 }

@@ -20,24 +20,19 @@ namespace _002_ExeDataGridandNavBinding_A
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             new DataGrid().Show();
-            this.Close();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            new Login().Show();
-            this.Close();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            new Login().Show();
+            this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             new DataBinding().Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

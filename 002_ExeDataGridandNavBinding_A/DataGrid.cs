@@ -43,6 +43,8 @@ namespace _002_ExeDataGridandNavBinding_A
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Maroon;
             this.dataGridView1.Columns[4].DefaultCellStyle.BackColor = Color.LightBlue;
 
+
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -54,7 +56,9 @@ namespace _002_ExeDataGridandNavBinding_A
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             new FormDataGrid().Show();
-            this.Close();
+            this.Hide();
+
         }
+
     }
 }
